@@ -46,3 +46,7 @@ sudo systemctl enable bluetooth && sudo systemctl start bluetooth
 ### Optional Additional Kernel Installs
 
 sudo pacman -S linux-lts linux-lts-headers
+
+Then update grub so it sees the changes
+
+grub-mkconfig -o /boot/grub/grub.cfg
