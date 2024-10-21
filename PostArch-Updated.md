@@ -49,4 +49,4 @@ sudo pacman -S linux-lts linux-lts-headers
 
 Then update grub so it sees the changes
 
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
