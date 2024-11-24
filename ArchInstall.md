@@ -6,15 +6,7 @@
 
 ### 02: Syncronize Packages
 
-1. [Optional] Connect to WiFi using `iwctl` and check connection is established:
-
-$ <b>iwctl</b>
-[iwd]# <b>station wlan0 get-networks</b>
-[iwd]# <b>station wlan0 connect &lt;Name of WiFi access point&gt;</b>
-[iwd]# <b>exit</b>
-$ <b>ping 1.1.1.1</b>
-
-2. Syncronize pacman packages:
+1. Syncronize pacman packages:
 
 $ <b>pacman -Syy</b>
 
