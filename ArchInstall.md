@@ -1,4 +1,4 @@
-<img src="logo.png" />
+## Arch Install - Current Year
 
 ### 01: Download, Burn and Boot from the USB
 
