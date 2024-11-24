@@ -1,4 +1,4 @@
-<img src="./logo.png" />
+<img src="logo.png" />
 
 ### 01: Download, Burn and Boot from the USB
 
