@@ -20,10 +20,10 @@ arc-gtk-theme atril base base-devel flatpak bpytop fastfetch firefox git gparted
 
 sudo nvim /etc/pacman.conf
 
-Move down to Misc Options and uncomment & add:
 Color
 ParallelDownloads = 5
 ILoveCandy
+VerbosePkgLists
 
 ### Install Yay	
 
