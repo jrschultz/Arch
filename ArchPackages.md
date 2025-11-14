@@ -1,9 +1,11 @@
-# Arch Packages - Installed/ToInstall
-# ###################################
+# Arch Packages - Installed/To Install
 
-# Arch rocks the set for listing installed packages
-# Run the following command for a list to install on new installs
+Arch rocks the set for listing installed packages
+Run the following command for a list to install on new installs
+
+```bash
 pacman -Qe | awk '{print $1}' > PackageList.txt
+```
 
 Use this script to convert the PackageList.txt into a single line list:
 
@@ -70,17 +72,4 @@ Copy the install-cmd.txt to the target machine and install
 ```bash
 sudo pacman -S --needed $(cat install-cmd.txt)
 ```
-
-# Neovim
-
-+ NerdFont needed for Nvim: https://www.nerdfonts.com/
- 
-+ Neovim Chad for Theming: https://nvchad.com/docs/quickstart/install
-
-+ Wayland Copy Paste from Nvim to System Clipboard Package: wl-clipboard
-
-# KDE Apps
-
-sudo pacman -S okular gwenview kcalc krita kapman vail
-
 
