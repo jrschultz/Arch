@@ -98,13 +98,18 @@ nautilus
 neovim
 network-manager-applet
 networkmanager
+nss-mdns
+ntfs-3g
 nvidia-dkms
 orca
+pacman-contrib
 pandoc-cli
 papers
 papirus-icon-theme
 perl-image-exiftool
+pika-backup
 rclone
+rpi-imager
 ruby
 ruby-bundler
 ruby-erb
@@ -132,6 +137,7 @@ vlc
 vlc-plugins-all
 wget
 wireless_tools
+wl-clipboard
 xclip
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
